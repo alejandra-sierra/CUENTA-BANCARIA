@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: org.factoriaf5.AccountTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.082 s <<< FAILURE! -- in org.factoriaf5.AccountTest
+org.factoriaf5.AccountTest.testCalculationFee -- Time elapsed: 0.025 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.factoriaf5.Account.calculationFee()" because "this.account" is null
+	at org.factoriaf5.AccountTest.testCalculationFee(AccountTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.factoriaf5.AccountTest.testWithdrawInsufficientFunds -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.factoriaf5.Account.withdraw(float)" because "this.account" is null
+	at org.factoriaf5.AccountTest.testWithdrawInsufficientFunds(AccountTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.factoriaf5.AccountTest.testWithdraw -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.factoriaf5.Account.withdraw(float)" because "this.account" is null
+	at org.factoriaf5.AccountTest.testWithdraw(AccountTest.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.factoriaf5.AccountTest.testAccountInfo -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.factoriaf5.Account.AccountInfo()" because "this.account" is null
+	at org.factoriaf5.AccountTest.testAccountInfo(AccountTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.factoriaf5.AccountTest.testDepositNegativeAmount -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.factoriaf5.Account.deposit(float)" because "this.account" is null
+	at org.factoriaf5.AccountTest.testDepositNegativeAmount(AccountTest.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.factoriaf5.AccountTest.testDeposit -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.factoriaf5.Account.deposit(float)" because "this.account" is null
+	at org.factoriaf5.AccountTest.testDeposit(AccountTest.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+org.factoriaf5.AccountTest.testMonthlyStatement -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "fee" because "this.account" is null
+	at org.factoriaf5.AccountTest.testMonthlyStatement(AccountTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
